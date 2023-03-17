@@ -65,6 +65,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: var(--title-color);
 }
 
 /** <============= HEADER SECTION ============> */
@@ -119,7 +120,9 @@ body {
 
 .adress-list {}
 
-.adress-list-item {}
+.adress-list-item {
+    font-style: normal;
+}
 
 
 .contacts-link {}
@@ -174,7 +177,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background: var(--filter-secondary-background)
+    background: var(--filter-secondary-background);
 }
 
 /** <======= FEATURES SECTION =======> */
