@@ -12,6 +12,7 @@
     --filter-secondary-text-color: #FFFFFF;
     --filter-secondary-background: #404BBF;
     --nav-hover-color: #404bbf;
+    --nav-color: #2e2f42;
 
 }
 
@@ -47,15 +48,20 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .description {
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-title {
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 /** <============= HEADER SECTION ============> */
@@ -70,7 +76,7 @@ body {
 }
 
 .logo-header-b {
-    color: var(--common-text-color);
+    color: --;
 }
 
 .nav-link {
@@ -78,7 +84,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--common-text-color);
+    color: var(--nav-color);
 }
 
 .nav-link:hover,
@@ -89,6 +95,7 @@ body {
 .contacts-link {
     color: var(--common-text-color);
     font-style: normal;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -109,10 +116,7 @@ body {
 
 .adress-list {}
 
-.adress-list-item {
-    font-style: normal;
-    letter-spacing: 0.02em
-}
+.adress-list-item {}
 
 
 
@@ -150,6 +154,8 @@ body {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: var(--hero-text-color);
 }
 
@@ -164,6 +170,11 @@ body {
     cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--filter-secondary-background)
+}
+
 /** <======= FEATURES SECTION =======> */
 .features {}
 
@@ -175,6 +186,8 @@ body {
 
 /** <======= ABOUT US SECTION =======> */
 .about-us {}
+
+.about-us-title {}
 
 .about-us-list {}
 
