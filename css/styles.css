@@ -1,5 +1,5 @@
 :root {
-    --common-text-color: #2E2F42;
+    --common-text-color: #434455;
     --secondary-text-color: #F4F4FD;
     --hero-background-color: #2E2F42;
     --hero-text-color: #FFFFFF;
@@ -11,6 +11,7 @@
     --filter-common-background: #F4F4FD;
     --filter-secondary-text-color: #FFFFFF;
     --filter-secondary-background: #404BBF;
+    --nav-hover-color: #404bbf;
 
 }
 
@@ -59,10 +60,11 @@ body {
 
 /** <============= HEADER SECTION ============> */
 .logo-header {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: calc(21 / 18);
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-main-color);
 }
@@ -75,13 +77,24 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--common-text-color);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--nav-hover-color);
+}
+
 .contacts-link {
-    color: #434455;
+    color: var(--common-text-color);
     font-style: normal;
     line-height: 1.5;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--nav-hover-color);
 }
 
 .header {}
@@ -96,7 +109,12 @@ body {
 
 .adress-list {}
 
-.adress-list-item {}
+.adress-list-item {
+    font-style: normal;
+    letter-spacing: 0.02em
+}
+
+
 
 .contacts-link {}
 
@@ -111,10 +129,11 @@ body {
 }
 
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: calc(21 / 18);
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-main-color);
 }
