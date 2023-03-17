@@ -117,7 +117,9 @@ body {
 
 .nav-item {}
 
-.adress {}
+.adress {
+    font-style: normal;
+}
 
 .adress-list {}
 
