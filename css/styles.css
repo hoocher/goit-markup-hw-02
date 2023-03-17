@@ -7,12 +7,14 @@
     --common-background-color: #FFFFFF;
     --secondary-background-color: #F4F4FD;
     --logo-main-color: #4D5AE5;
+    --logo-footercolor-b: #2e2f42;
     --filter-common-text-color: #4D5AE5;
     --filter-common-background: #F4F4FD;
     --filter-secondary-text-color: #FFFFFF;
     --filter-secondary-background: #404BBF;
     --nav-hover-color: #404bbf;
     --nav-color: #2e2f42;
+    --title-color: #2e2f42;
 
 }
 
@@ -49,6 +51,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
 .description {
@@ -76,7 +79,7 @@ body {
 }
 
 .logo-header-b {
-    color: --;
+    color: var(--logo-footercolor-b);
 }
 
 .nav-link {
@@ -117,7 +120,6 @@ body {
 .adress-list {}
 
 .adress-list-item {}
-
 
 
 .contacts-link {}
@@ -161,7 +163,7 @@ body {
 
 .hero-button {
     color: var(--hero-text-color);
-    background: #4D5AE5;
+    background: var(--filter-common-text-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -172,7 +174,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--filter-secondary-background)
+    background: var(--filter-secondary-background)
 }
 
 /** <======= FEATURES SECTION =======> */
@@ -183,6 +185,8 @@ body {
 .features-list {}
 
 .features-list-item {}
+
+.features-title {}
 
 /** <======= ABOUT US SECTION =======> */
 .about-us {}
